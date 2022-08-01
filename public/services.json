@@ -1,0 +1,23 @@
+[
+    {
+        "id" : "1",
+        "name" : "Cappuccino",
+        "description" : "A cappuccino is an espresso-based coffee drink that originated in Italy and is prepared with steamed milk foam. Variations of the drink involve the use of cream instead of milk, using non-dairy milk substitutes and flavoring with cinnamon or chocolate powder.",
+        "price" : "200 bdt",
+        "img" : "https://i.ibb.co/QkFh94W/coffee3.png"
+    },
+    {
+        "id" : "2",
+        "name" : "Latte",
+        "description" : "Caffe latte, often shortened to just latte in English, is a coffee beverage of Italian origin made with espresso and steamed milk.",
+        "price" : "220 bdt",
+        "img" : "https://i.ibb.co/WkqxkZT/coffee4.png"
+    },
+    {
+        "id" : "3",
+        "name" : "Espresso",
+        "description" : "Espresso is a coffee-brewing method of Italian origin, in which a small amount of nearly boiling water is forced under 9 to 10 bars of pressure through finely-ground coffee beans. Espresso coffee can be made with a wide variety of coffee beans and roast degrees",
+        "price" : "240 bdt",
+        "img" : "https://i.ibb.co/1RyqFQg/coffee6.png"
+    }
+]
