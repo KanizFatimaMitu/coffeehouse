@@ -1,10 +1,23 @@
-.services{
+.services-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
     grid-gap: 10px;
+    
 
 }
 .title{
     text-align: center;
 }
+.show-all{
+    text-align: center;
+    color: brown;
+}
+/* responsive */
+@media only screen and (max-width : 576px) {
+    .services-container{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }  
+}
+

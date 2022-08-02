@@ -1,18 +1,26 @@
 .service{
+    width: 500;
+    height: 750;
     text-align: center;
-    border: 5px solid brown;
+    border: 5px solid rgb(53, 13, 13);
     padding: 5px;
-    
+    margin: 2px;  
+}
+.service:hover{
+    background-color: rgb(17, 9, 9);
 }
 .picture{
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 300px;
 }
 .coffee-name{
     color: brown;
 }
 .coffee-description{
     color: antiquewhite;
+}
+.see-more{
+    color: rgb(105, 33, 33);
 }
 .coffee-price{
     color: brown;
@@ -21,4 +29,38 @@
     width: 500px;
     padding: 15px;
     background-color: brown;
+    margin-bottom: 5px;
+    color: antiquewhite;
+    border: 1px solid brown;
 }
+.cart:hover{
+    background-color: antiquewhite;
+    color: brown;
+    font-weight: 900;
+}
+
+/* responsive */
+
+@media only screen and (max-width : 576px) {
+    .service{
+        width: 250px;
+        height: 420px;
+        margin: auto;
+        padding: 15px;
+    }
+    .service:hover{
+        background-color: rgb(17, 9, 9);
+    }
+    .picture{
+        height: 150px;
+        width: 150px;
+    }
+    .cart{
+        width: 250px;
+        padding: 10px;
+        background-color: brown;
+        margin-bottom: 5px;
+    }   
+}
+
+

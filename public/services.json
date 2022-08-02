@@ -19,5 +19,26 @@
         "description" : "Espresso is a coffee-brewing method of Italian origin, in which a small amount of nearly boiling water is forced under 9 to 10 bars of pressure through finely-ground coffee beans. Espresso coffee can be made with a wide variety of coffee beans and roast degrees",
         "price" : "240 bdt",
         "img" : "https://i.ibb.co/1RyqFQg/coffee6.png"
+    },
+    {
+        "id" : "4",
+        "name" : "Mocha",
+        "description" : "A caffe mocha, also called mocaccino, is a chocolate-flavoured warm beverage that is a variant of a caffè latte, commonly served in a glass rather than a mug. Other commonly used spellings are mochaccino and also mochachino.",
+        "price" : "230 bdt",
+        "img" : "https://i.ibb.co/TWGYbHF/coffee7.png"
+    },
+    {
+        "id" : "5",
+        "name" : "Americano",
+        "description" : "Americano is a type of coffee drink prepared by diluting an espresso with hot water, giving it a similar strength to, but different flavor from, traditionally brewed coffee. Its strength varies with the number of shots of espresso and amount of water added.",
+        "price" : "280 bdt",
+        "img" : "https://i.ibb.co/Jymw83m/coffee8.png"
+    },
+    {
+        "id" : "6",
+        "name" : "Frappuccino",
+        "description" : "Frappuccino is a line of blended iced coffee drinks sold by Starbucks. It consists of coffee or crème base, blended with ice and ingredients such as flavored syrups and usually topped with whipped cream and or spices.",
+        "price" : "240 bdt",
+        "img" : "https://i.ibb.co/tx3c76p/coffee9.png"
     }
 ]
