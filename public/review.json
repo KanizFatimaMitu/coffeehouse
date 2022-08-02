@@ -1,0 +1,17 @@
+[
+    {
+        "id" : "1",
+        "img" : "https://i.ibb.co/WW0g2tq/review2.png",
+        "review" : "Had fun their & they ensure their quality with quantity."
+    },
+    {
+        "id" : "2",
+        "img" : "https://i.ibb.co/NSTrWnj/review1.png",
+        "review" : "Loved the coffee.Taste was on point."
+    },
+    {
+        "id" : "3",
+        "img" : "https://i.ibb.co/6ZPvX2M/review3.png",
+        "review" : "service was awesome.so peaceful place in the town."
+    }
+]

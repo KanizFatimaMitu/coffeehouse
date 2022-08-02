@@ -1,0 +1,14 @@
+.review-box{
+    height: 350;
+    width: 280;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: rgb(17, 9, 9);
+    
+}
+.review-box:hover{
+    
+}

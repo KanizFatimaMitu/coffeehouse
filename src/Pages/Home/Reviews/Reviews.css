@@ -1,24 +1,17 @@
-.services-container{
+.show-review{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    text-align: center;
     grid-gap: 10px;
-    
-
-}
-.title{
     text-align: center;
+   
 }
-.show-all{
+.review-title{
     text-align: center;
-    color: brown;
-    padding: 20px;
+    padding: 25px;
 }
-/* responsive */
 @media only screen and (max-width : 576px) {
-    .services-container{
+    .show-review{
         grid-template-columns: repeat(1, 1fr);
         
     }  
 }
-

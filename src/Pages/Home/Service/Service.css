@@ -1,6 +1,6 @@
 .service{
-    width: 500;
-    height: 750;
+    width: 300;
+    height: 450;
     text-align: center;
     border: 5px solid rgb(53, 13, 13);
     padding: 5px;
@@ -26,7 +26,7 @@
     color: brown;
 }
 .cart{
-    width: 500px;
+    width: 450px;
     padding: 15px;
     background-color: brown;
     margin-bottom: 5px;
