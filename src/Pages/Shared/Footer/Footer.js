@@ -1,11 +1,11 @@
 import React from 'react';
+import footer from '../../../images/footer.jpg'
+import './Footer.css'
 
 const Footer = () => {
     return (
-        <div>
-            <h1>
-                this is footer here
-            </h1>
+        <div className='footer'>
+        <img  src={footer} alt='/'></img>
         </div>
     );
 };

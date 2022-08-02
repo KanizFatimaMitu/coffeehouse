@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/free-regular-svg-icons';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Service from '../Service/Service';
 import './Services.css'
 
@@ -22,7 +24,11 @@ useEffect(()=>{
                      ></Service>)
             }
           </div>
-         <h3 className='show-all'>Show All</h3>
+        
+        
+         {/* <h3 className='show-all'>Show All</h3>
+         <FontAwesomeIcon icon={faArrowRight} /> */}
+         
         </div>
     );
 };

@@ -7,8 +7,9 @@
     align-items: center;
     margin: 10px;
     background-color: rgb(17, 9, 9);
+    border: 1px solid brown;
     
 }
 .review-box:hover{
-    
+    background-color:  rgb(19, 13, 13) ;
 }

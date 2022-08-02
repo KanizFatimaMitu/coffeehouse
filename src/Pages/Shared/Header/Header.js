@@ -1,57 +1,74 @@
 import React from "react";
-import { useState } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
+import { useState } from "react";
+import Carousel from "react-bootstrap/Carousel";
 import coffeehouse from "../../../images/coffeehouse.jpg";
+import coffeehouse1 from "../../../images/coffeehouse1.jpg";
+import "./Header.css";
+import Nav from 'react-bootstrap/Nav';
 
 const Header = () => {
-        const [index, setIndex] = useState(0);
-      
-        const handleSelect = (selectedIndex, e) => {
-          setIndex(selectedIndex);
-        };
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
   return (
     <div className="slider">
+        <Nav className="justify-content-center" activeKey="/home">
+        <Nav.Item>
+          <Nav.Link href="/">Home</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link to="/services">Services</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="reviews">Reviews</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="link3">About</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="link4">Your cart</Nav.Link>
+        </Nav.Item>
+      </Nav>
+
+      {/* Carousel */}
       <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={coffeehouse}
-          alt="First slide"
-        />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
-          alt="Second slide"
-        />
+        <Carousel.Item>
+          <img className="d-block w-100" src={coffeehouse} alt="First slide" />
+          <Carousel.Caption>
+            <h1 className="card-title">Coffee House</h1>
+            <h4 className="card-subtitle">"where memory made of"</h4>
+            <p className="card-text">We Laugh || We Love || We Live</p>
+            <p className="card-subtext">
+              contact @0162222222 | Loation @Banani
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={coffeehouse1}
+            alt="Second slide"
+          />
 
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
-        />
+          <Carousel.Caption>
+            <h3 className="slidertext2">Home delivery available !!!</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src={coffeehouse1} alt="Third slide" />
 
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+          <Carousel.Caption>
+            <p className="slidertext3">
+              "you can find us on google map too.we hope you will love our
+              place, will find peace and will not upset with our hospitality.if you want to order contact our shop number.enjoy life !!"
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
     </div>
   );
-    };
+};
 
 export default Header;
