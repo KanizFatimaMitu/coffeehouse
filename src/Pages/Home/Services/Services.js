@@ -13,7 +13,7 @@ useEffect(()=>{
 
     return (
         <div>
-           
+            <h1 className='title'>Our Services</h1>
           <div  className='services'>
           {
                 services.map(service => <Service

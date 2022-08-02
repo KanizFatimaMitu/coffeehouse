@@ -6,9 +6,9 @@ const Service = ({service}) => {
     return (
         <div className='service'>
            <img className='picture' src={img} alt=''></img>
-            <h2>{name}</h2>
-            <p>{description}</p>
-            <h5>{price}</h5>
+            <h2 className='coffee-name'>{name}</h2>
+            <p className='coffee-description'>{description}</p>
+            <h5 className='coffee-price'>{price}</h5>
             <button className='cart'>Add to cart</button>
         </div>
     );

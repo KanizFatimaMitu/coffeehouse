@@ -1,12 +1,24 @@
 .service{
     text-align: center;
-    border: 2px solid brown;
+    border: 5px solid brown;
+    padding: 5px;
     
 }
 .picture{
     height: 500px;
     width: 500px;
 }
+.coffee-name{
+    color: brown;
+}
+.coffee-description{
+    color: antiquewhite;
+}
+.coffee-price{
+    color: brown;
+}
 .cart{
     width: 500px;
+    padding: 15px;
+    background-color: brown;
 }
