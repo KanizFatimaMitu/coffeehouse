@@ -8,7 +8,7 @@ const Review = ({ review }) => {
         <img class="rounded-circle h-75 w-75" src={review.img} alt="/"></img>
       </div>
       <div>
-        <h4 class="text-center p-5">{review.review}</h4>
+        <h4 class="text-center p-5"><span>"</span>{review.review}<span>"</span></h4>
       </div>
     </div>
   );

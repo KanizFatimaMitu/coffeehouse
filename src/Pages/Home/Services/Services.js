@@ -14,9 +14,9 @@ useEffect(()=>{
     return (
         <div>
             <h1 className='title'>Our Services</h1>
-          <div  className='services-container'>
+          <div  className='services-container w-75 mx-auto'>
           {
-                services.slice(0,9).map(service => <Service
+                services.slice(0,6).map(service => <Service
                      key={service.id}
                      service = {service}
                      ></Service>)
@@ -24,8 +24,8 @@ useEffect(()=>{
           </div>
         
         
-         {/* <h3 className='show-all'>Show All</h3>
-         <FontAwesomeIcon icon={faArrowRight} /> */}
+         <h6 className='show-all bg-white text-danger fw-bolder rounded-pill w-25 mx-auto mt-2 mb-5'>Show All</h6>
+        
          
         </div>
     );

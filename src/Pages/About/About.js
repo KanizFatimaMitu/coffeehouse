@@ -13,7 +13,7 @@ const About = () => {
                     </Card.Text>
                     <Card.Link className='bg-secondary text-white text-decoration-none rounded-pill fw-bold p-3 fs-5 mb-3' target="_blank" href="https://www.linkedin.com/in/kaniz-fatima-mitu-212432233/">Linkedin</Card.Link>
                     <Card.Link className='bg-secondary text-white text-decoration-none rounded-pill fw-bold p-3 fs-5' target="_blank" href="https://github.com/KanizFatimaMitu">Github</Card.Link>
-                    <Card.Link className='bg-secondary text-white text-decoration-none rounded-pill fw-bold p-3 fs-5'  target="_blank" href="https://github.com/KanizFatimaMitu">Rsume</Card.Link>
+                    <Card.Link className='bg-secondary text-white text-decoration-none rounded-pill fw-bold p-3 fs-5'  target="_blank" href="https://github.com/KanizFatimaMitu">Resume</Card.Link>
                 </Card.Body>
             </Card>
         </div>
