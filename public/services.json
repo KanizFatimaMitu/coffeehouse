@@ -40,5 +40,89 @@
         "description" : "Frappuccino is a line of blended iced coffee drinks sold by Starbucks. It consists of coffee or crème base, blended with ice and ingredients such as flavored syrups and usually topped with whipped cream and or spices.",
         "price" : "240 bdt",
         "img" : "https://i.ibb.co/tx3c76p/coffee9.png"
+    },
+    {
+        "id" : "7",
+        "name" : "Cappuccino",
+        "description" : "A cappuccino is an espresso-based coffee drink that originated in Italy and is prepared with steamed milk foam. Variations of the drink involve the use of cream instead of milk, using non-dairy milk substitutes and flavoring with cinnamon or chocolate powder.",
+        "price" : "200 bdt",
+        "img" : "https://i.ibb.co/QkFh94W/coffee3.png"
+    },
+    {
+        "id" : "8",
+        "name" : "Latte",
+        "description" : "Caffe latte, often shortened to just latte in English, is a coffee beverage of Italian origin made with espresso and steamed milk.",
+        "price" : "220 bdt",
+        "img" : "https://i.ibb.co/WkqxkZT/coffee4.png"
+    },
+    {
+        "id" : "9",
+        "name" : "Espresso",
+        "description" : "Espresso is a coffee-brewing method of Italian origin, in which a small amount of nearly boiling water is forced under 9 to 10 bars of pressure through finely-ground coffee beans. Espresso coffee can be made with a wide variety of coffee beans and roast degrees",
+        "price" : "240 bdt",
+        "img" : "https://i.ibb.co/1RyqFQg/coffee6.png"
+    },
+    {
+        "id" : "10",
+        "name" : "Mocha",
+        "description" : "A caffe mocha, also called mocaccino, is a chocolate-flavoured warm beverage that is a variant of a caffè latte, commonly served in a glass rather than a mug. Other commonly used spellings are mochaccino and also mochachino.",
+        "price" : "230 bdt",
+        "img" : "https://i.ibb.co/TWGYbHF/coffee7.png"
+    },
+    {
+        "id" : "11",
+        "name" : "Americano",
+        "description" : "Americano is a type of coffee drink prepared by diluting an espresso with hot water, giving it a similar strength to, but different flavor from, traditionally brewed coffee. Its strength varies with the number of shots of espresso and amount of water added.",
+        "price" : "280 bdt",
+        "img" : "https://i.ibb.co/Jymw83m/coffee8.png"
+    },
+    {
+        "id" : "12",
+        "name" : "Frappuccino",
+        "description" : "Frappuccino is a line of blended iced coffee drinks sold by Starbucks. It consists of coffee or crème base, blended with ice and ingredients such as flavored syrups and usually topped with whipped cream and or spices.",
+        "price" : "240 bdt",
+        "img" : "https://i.ibb.co/tx3c76p/coffee9.png"
+    },
+    {
+        "id" : "13",
+        "name" : "Cappuccino",
+        "description" : "A cappuccino is an espresso-based coffee drink that originated in Italy and is prepared with steamed milk foam. Variations of the drink involve the use of cream instead of milk, using non-dairy milk substitutes and flavoring with cinnamon or chocolate powder.",
+        "price" : "200 bdt",
+        "img" : "https://i.ibb.co/QkFh94W/coffee3.png"
+    },
+    {
+        "id" : "14",
+        "name" : "Latte",
+        "description" : "Caffe latte, often shortened to just latte in English, is a coffee beverage of Italian origin made with espresso and steamed milk.",
+        "price" : "220 bdt",
+        "img" : "https://i.ibb.co/WkqxkZT/coffee4.png"
+    },
+    {
+        "id" : "15",
+        "name" : "Espresso",
+        "description" : "Espresso is a coffee-brewing method of Italian origin, in which a small amount of nearly boiling water is forced under 9 to 10 bars of pressure through finely-ground coffee beans. Espresso coffee can be made with a wide variety of coffee beans and roast degrees",
+        "price" : "240 bdt",
+        "img" : "https://i.ibb.co/1RyqFQg/coffee6.png"
+    },
+    {
+        "id" : "16",
+        "name" : "Mocha",
+        "description" : "A caffe mocha, also called mocaccino, is a chocolate-flavoured warm beverage that is a variant of a caffè latte, commonly served in a glass rather than a mug. Other commonly used spellings are mochaccino and also mochachino.",
+        "price" : "230 bdt",
+        "img" : "https://i.ibb.co/TWGYbHF/coffee7.png"
+    },
+    {
+        "id" : "17",
+        "name" : "Americano",
+        "description" : "Americano is a type of coffee drink prepared by diluting an espresso with hot water, giving it a similar strength to, but different flavor from, traditionally brewed coffee. Its strength varies with the number of shots of espresso and amount of water added.",
+        "price" : "280 bdt",
+        "img" : "https://i.ibb.co/Jymw83m/coffee8.png"
+    },
+    {
+        "id" : "18",
+        "name" : "Frappuccino",
+        "description" : "Frappuccino is a line of blended iced coffee drinks sold by Starbucks. It consists of coffee or crème base, blended with ice and ingredients such as flavored syrups and usually topped with whipped cream and or spices.",
+        "price" : "240 bdt",
+        "img" : "https://i.ibb.co/tx3c76p/coffee9.png"
     }
 ]

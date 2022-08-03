@@ -1,10 +1,12 @@
+
 .card-title{
     padding-top: 100px;
-    color: antiquewhite;
+    color: brown;
+    font-weight: 800;
 }
 .card-subtitle{
     padding-bottom: 20px;
-    color: antiquewhite;
+    color: rgb(199, 178, 152);
 }
 .card-text{
     color: brown;
@@ -18,11 +20,11 @@
 }
 .slidertext2{
     margin-right: 800px;
-    margin-bottom: 180px;
+    margin-bottom: 120px;
     color: antiquewhite;
 }
 .slidertext3{
     margin-right: 800px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     color: antiquewhite;
 }

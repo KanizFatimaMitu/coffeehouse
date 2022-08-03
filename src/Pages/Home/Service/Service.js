@@ -9,7 +9,7 @@ const Service = ({service}) => {
             <h2 className='coffee-name'>{name}</h2>
             <p className='coffee-description'>{description.slice(0,120)}.....<span className='see-more'>see more</span></p>
             <h3 className='coffee-price'>$ {price}</h3>
-            <button className='cart'>Add to cart</button>
+            <button className='cart rounded-pill'>Add to cart</button>
         </div>
     );
 };

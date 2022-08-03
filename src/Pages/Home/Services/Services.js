@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/free-regular-svg-icons';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Service from '../Service/Service';
 import './Services.css'
 
@@ -18,7 +16,7 @@ useEffect(()=>{
             <h1 className='title'>Our Services</h1>
           <div  className='services-container'>
           {
-                services.map(service => <Service
+                services.slice(0,9).map(service => <Service
                      key={service.id}
                      service = {service}
                      ></Service>)

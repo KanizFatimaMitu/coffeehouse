@@ -26,11 +26,12 @@
     color: brown;
 }
 .cart{
-    width: 450px;
+    width: 300px;
     padding: 15px;
     background-color: brown;
     margin-bottom: 5px;
     color: antiquewhite;
+    font-size: 20px;
     border: 1px solid brown;
 }
 .cart:hover{

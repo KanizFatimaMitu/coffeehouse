@@ -4,7 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 import coffeehouse from "../../../images/coffeehouse.jpg";
 import coffeehouse1 from "../../../images/coffeehouse1.jpg";
 import "./Header.css";
-import Nav from 'react-bootstrap/Nav';
+
 
 const Header = () => {
   const [index, setIndex] = useState(0);
@@ -14,30 +14,14 @@ const Header = () => {
   };
   return (
     <div className="slider">
-        <Nav className="justify-content-center" activeKey="/home">
-        <Nav.Item>
-          <Nav.Link href="/">Home</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link to="/services">Services</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="reviews">Reviews</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link3">About</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link4">Your cart</Nav.Link>
-        </Nav.Item>
-      </Nav>
+       
 
       {/* Carousel */}
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img className="d-block w-100" src={coffeehouse} alt="First slide" />
           <Carousel.Caption>
-            <h1 className="card-title">Coffee House</h1>
+            <h1 className="card-title">"Coffee House"</h1>
             <h4 className="card-subtitle">"where memory made of"</h4>
             <p className="card-text">We Laugh || We Love || We Live</p>
             <p className="card-subtext">
