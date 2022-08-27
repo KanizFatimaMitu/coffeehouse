@@ -107,7 +107,7 @@ const Login = () => {
     return (
         <div>
             <div className="registration w-50 mx-auto mt-5">
-                <h2 className="text-primary">Please {registered ? 'Login' : 'Register'}!!</h2>
+                <h2 className="log">Please {registered ? 'Login' : 'Register'}!!</h2>
                 <Form noValidate validated={validated} onSubmit={handleFormSubmit}>
                     {!registered && <Form.Group className="mb-3" controlId="formBasicEmail">
                         <Form.Label>Your Name</Form.Label>
@@ -139,9 +139,9 @@ const Login = () => {
                     </Form.Group>
 
                     <p className="text-danger">{error}</p>
-                    <Button onClick={handlePasswordReset} variant="link">Forget Password?</Button>
+                    <Button className='log' onClick={handlePasswordReset} variant="link">Forget Password?</Button>
                     <br />
-                    <Button variant="primary" type="submit">
+                    <Button className='log-button' type="submit">
                         {registered ? 'Login' : 'Register'}
                     </Button>
                 </Form>

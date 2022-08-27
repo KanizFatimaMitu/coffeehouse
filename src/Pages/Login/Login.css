@@ -1,5 +1,8 @@
 .log{
     color: brown;
-    text-align: center;
-    margin-top: 50px;
+    font-weight: 700;
+}
+.log-button{
+    background-color: brown;
+    border: 0ch;
 }
