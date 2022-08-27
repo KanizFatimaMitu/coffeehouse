@@ -1,17 +1,21 @@
 import React from 'react';
 import './Environment.css';
+import environment from '../../../images/environment.jpg'
 
 
 const Environment = () => {
     return (
-        <div>
-           
+        <div className='high'>
+
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h5 class="card-title">We provide best environment !</h5>
+                    <p class="card-text">" I had a great time eating delicious food at your restaurant. The waiters and waitresses were committed to great service and were very friendly. The atmosphere was awesome and I definitely liked that you have a very modern style. Most importantly, every food and drink on your menu tasted great! "</p>
                 </div>
-                <img src="..." class="card-img-bottom" alt="..."/>
+                <div className='pic'>
+                    <img src={environment} class="card-img-bottom" alt="..." />
+                </div>
+
             </div>
         </div>
     );

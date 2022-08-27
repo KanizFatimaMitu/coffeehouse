@@ -23,6 +23,7 @@ const AllFlavours = () => {
                  ></Service>)
         }
       </div>
+      
       </div>
     );
 };
