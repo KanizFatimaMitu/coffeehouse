@@ -15,7 +15,7 @@ const AllFlavours = () => {
     return (
         <div>
         <h1 className='title'><span className='caffe' >All</span> flavours of <span className='caffe' >"COFFEE"</span></h1>
-      <div  className='services-container'>
+      <div   className='services-container '>
       {
             flavours.map(service => <Service
                  key={service.id}

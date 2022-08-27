@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 const About = () => {
     return (
         <div>
-            <Card className='w-50 bg-dark mx-auto mt-5'>
+            <Card className='w-50 h-50 bg-dark mx-auto mt-5'>
                 <Card.Body>
                     <Card.Title className='fs-2 text-white'>I am "Kaniz Fatima"</Card.Title>
                     <Card.Subtitle className="mb-2 text-secondary fs-5">M.sc on Mathematics</Card.Subtitle>
