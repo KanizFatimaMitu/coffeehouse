@@ -13,7 +13,7 @@ const About = () => {
                     "I am a MERN stack web developer. I love to use my creativity and make something new. That's why I love to play with code. Over the last year, I gather knowledge in various parts of web development by myself. My ultimate goal is to become an awesome full-stack web developer who can make beautiful UIs and also can handle the back-end smoothly. ""
                     </Card.Text>
                    <Card.Link className='bg-secondary text-white text-decoration-none rounded-pill fw-bold p-3 fs-5 mb-3' target="_blank" href="https://www.linkedin.com/in/kaniz-fatima-mitu-212432233/">Linkedin</Card.Link>
-                    <Card.Link className='bg-secondary text-white text-decoration-none rounded-pill fw-bold p-3 fs-5'  target="_blank" href="https://github.com/KanizFatimaMitu">Protfolio</Card.Link>
+                    <Card.Link className='bg-secondary text-white text-decoration-none rounded-pill fw-bold p-3 fs-5'  target="_blank" href="https://github.com/KanizFatimaMitu">Github</Card.Link>
                 </Card.Body>
             </Card>
         </div>
