@@ -3,19 +3,29 @@
     width: auto;
     margin: 0%;
     text-align: center;
-    color: whitesmoke;
+    
 }
 
 #last-part {
     background-color: rgb(22, 11, 11);
+   
 }
 
 #last1 {
 
-    padding-top: 30px;
+    padding-top: 50px;
+    color: rgb(181, 45, 45);
+    font-weight: bold;
 }
+#last2{
+    padding-top: 10px;
+    font-weight: 700;
+    color: white;
+    
+}
+#last3 {
 
-#last2 {
-
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+    font-weight: 600;
+    color: white;
 }

@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Nav } from 'react-bootstrap';
 import Service from '../Service/Service';
 import './Services.css'
@@ -26,7 +28,7 @@ const Services = () => {
 
 
             <h6 className='show-all bg-white  rounded-pill w-25 mx-auto mt-2 mb-5'>
-                <Nav.Link className='text-danger fw-bolder' href="/flavours">Show All</Nav.Link>
+                <Nav.Link className='text-danger fw-bolder' href="/flavours">Show All <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></Nav.Link>
             </h6>
 
 
