@@ -4,6 +4,7 @@ import Home from './Pages/Home/Home/Home';
 import About from './Pages/About/About';
 import Login from './Pages/Login/Login';
 import Navbar from './Pages/Shared/Navbar/Navbar';
+import Footer from './Pages/Shared/Footer/Footer';
 import Reviews from './Pages/Home/Reviews/Reviews';
 import AllFlavours from './Pages/AllFlavours/AllFlavours';
 
@@ -18,7 +19,7 @@ function App() {
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
       </Routes>
-     
+      <Footer></Footer>
     </div>
   );
 }

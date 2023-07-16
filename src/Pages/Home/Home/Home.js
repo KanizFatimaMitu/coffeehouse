@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../../Shared/Footer/Footer';
 import Header from '../../Shared/Header/Header';
 import Environment from '../Environment/Environment';
 import Reviews from '../Reviews/Reviews';
@@ -13,7 +12,7 @@ const Home = () => {
            <Services></Services>
            <Reviews></Reviews>
            <Environment></Environment>
-           <Footer></Footer>
+           
         </div>
     );
 };
